@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 
-import * as sw from "./serviceWorkerRegistration"
 
-sw.register();
+//import * as sw from "./serviceWorkerRegistration"
+
+//sw.register();
+const App =() => {
+  return(
+    <div>Hello</div>
+  );
+};
+
 ReactDOM.render(
   
   <App />,

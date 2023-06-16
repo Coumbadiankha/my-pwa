@@ -1,6 +1,6 @@
 {
   "short_name": "React App",
-  "name": "tp pwa",
+  "name": "coumba",
   "icons": [
     {
       "src": "logo192.png",
@@ -13,7 +13,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

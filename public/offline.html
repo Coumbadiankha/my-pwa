@@ -9,9 +9,15 @@
 
 <body>
     <h1>PWA Offline test</h1>
-    <div id="homepage"></div>
+    <div id="accueil"></div>
     <div id="posts"></div>
 
+    <script>
+        let home = localStorage.getItem("home");
+        document.querySelector("#accueil").childNodes= home;
+        let posts = localStorage.getItem("posts");
+        document.querySelector("#posts").innerHTML = posts;
+    </script>
 
 </body>
 

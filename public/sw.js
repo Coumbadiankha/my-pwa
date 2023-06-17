@@ -6,7 +6,7 @@ self.addEventListener('install', (event) => {
     (async () => {
       const cache = await caches.open(CACHE_NAME);
       cache.addAll(['/*']);
-      // cache.add('offline.html');
+       cache.add('offline.html');
     })()
   );
 });

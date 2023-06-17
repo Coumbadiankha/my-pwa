@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 
-//import * as sw from "./serviceWorkerRegistration"
+import * as sw from "./serviceWorkerRegistration"
 
-//sw.register();
+sw.register();
 const App =() => {
   return(
     <div>Hello</div>
